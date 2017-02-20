@@ -15,7 +15,7 @@ public class IntersectingPoints {
         LinearEquation linear = LinearEquation.getIntersectingPoint(points);
 
         if (linear.isSolvable()) {
-            System.out.println("The intersecting point is at (" + linear.getX() + ", " + linear.getY() + ")");
+            System.out.println("The intersecting point is at " + linear.getX() + ", " + linear.getY());
         } else {
             System.out.println("The two lines are parallel");
         }
